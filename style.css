@@ -1,0 +1,58 @@
+body {
+  background-image: url(./img/Background-01.jpg);
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.hidden {
+  display: none;
+}
+.h1,
+.h2 {
+  font-size: 3rem;
+}
+.h2 {
+  color: orange;
+}
+
+.key {
+  margin: 0.2rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.letter {
+  text-align: center;
+}
+.enterword {
+  margin: 20% 0 -25% 0;
+}
+label {
+  font-size: 1.5rem;
+}
+.word {
+  width: 65%;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+}
+.button {
+  font-size: 1.5rem;
+}
+.finalWord ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: -10%;
+}
+.finalWord ul li {
+  font-size: 2.8rem;
+  border-bottom: 0.2rem solid #000 ;
+  margin: auto 0.2rem 12% 0.2rem;
+}
+.userSection {
+  height: 100vh;
+}
+.lost {
+  font-size: 5rem;
+  color: rgba(53, 5, 5, 0.658);
+}
+

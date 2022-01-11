@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hangman</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="main row">
+        <div class="hangman col-5">
+          <div class="header">
+            <span class="h1">Hang</span><span class="h2">man</span>
+          </div>
+          <div class="empity">
+            <img class="col-12" src="./img/Asset-1-01.png" alt="" />
+          </div>
+          <div class="thread hidden">
+            <img class="col-12" src="./img/Asset-2-01.png" alt="" />
+          </div>
+          <div class="head hidden">
+            <img class="col-12" src="./img/Asset-3-01.png" alt="" />
+          </div>
+          <div class="body hidden">
+            <img class="col-12" src="./img/Asset-4-01.png" alt="" />
+          </div>
+          <div class="leftHand hidden">
+            <img class="col-12" src="./img/Asset-5-01.png" alt="" />
+          </div>
+          <div class="rightHand hidden">
+            <img class="col-12" src="./img/Asset-6-01.png" alt="" />
+          </div>
+          <div class="leftFoot hidden">
+            <img class="col-12" src="./img/Asset-7-01.png" alt="" />
+          </div>
+          <div class="rightFoot hidden">
+            <img class="col-12" src="./img/Asset-8-01.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="userSection col-7 d-flex flex-column align-items-center justify-content-center"
+        >
+          <div class="enterword col-7">
+            <input type="password" class="word " />
+            <button type="button" class="button btn">Enter Word</button>
+            <hr />
+          </div>
+        
+          <div class="letter col-6 text-center">
+              <div class="finalWord col-12"><ul></ul></div>
+            <hr />
+            <p class="lost hidden">You Lost!</p>
+           <div class="buttons"> 
+            <button class="btn key" id="a">A</button>
+            <button class="btn key" id="b">B</button>
+            <button class="btn key" id="c">C</button>
+            <button class="btn key" id="d">D</button>
+            <button class="btn key" id="e">E</button>
+            <button class="btn key" id="f">F</button>
+            <button class="btn key" id="g">G</button>
+            <button class="btn key" id="h">H</button>
+            <button class="btn key" id="i">I</button>
+            <button class="btn key" id="j">J</button>
+            <button class="btn key" id="k">K</button>
+            <button class="btn key" id="l">L</button>
+            <button class="btn key" id="m">M</button>
+            <button class="btn key" id="n">N</button>
+            <button class="btn key" id="o">O</button>
+            <button class="btn key" id="p">P</button>
+            <button class="btn key" id="q">Q</button>
+            <button class="btn key" id="r">R</button>
+            <button class="btn key" id="s">S</button>
+            <button class="btn key" id="t">T</button>
+            <button class="btn key" id="u">U</button>
+            <button class="btn key" id="v">V</button>
+            <button class="btn key" id="w">W</button>
+            <button class="btn key" id="x">X</button>
+            <button class="btn key" id="y">Y</button>
+            <button class="btn key" id="z">Z</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
